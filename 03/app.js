@@ -5,10 +5,8 @@ import MenuItem from './components/MenuItem';
 const root = createRoot(document.querySelector('#root'));
 
 const App = () =>
-    <>
-        <MenuItem text="kontakt" />
-        <MenuItem url="/contact/" />
-
-    </>
+    <ul>
+        <MenuItem text="kontakt" url="/contact/" />
+    </ul>
 
 root.render(<App />)

@@ -2,11 +2,9 @@ import React from "react";
 
 const MenuItem = props => {
     return (
-        <ul>
-            <li>
-                <a href="#">{props.text} {props.url}</a>
-            </li>
-        </ul>
+        <li>
+            <a href={props.url}> {props.text}</a>
+        </li>
     );
 }
 
