@@ -7,8 +7,7 @@ const root = createRoot(document.querySelector('#root'));
 
 const App = () =>
     <>
-        <MenuItem text='devmentor.pl' url='https://devmentor.pl' />
-        <MenuItem text='React' url='https://pl.legacy.reactjs.org/' />
+
         <Menu />
     </>
 
